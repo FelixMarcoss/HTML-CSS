@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(93, 143, 237);
+    font-family: sans-serif;
+}
+
+h1{
+    color: aqua;
+}
+
+h2{
+    color: blueviolet;
+}
+
+.Titulo{
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    font-family: cursive;
+}
