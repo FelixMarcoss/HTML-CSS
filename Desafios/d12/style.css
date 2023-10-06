@@ -56,7 +56,9 @@ section{
     font-family: var(--font3);
     font-size: 3.5vw;
 }
-
+section > p {
+    padding-bottom: 2em;
+}
 footer{
     background-color: black;
     text-align: center;
@@ -69,12 +71,28 @@ footer{
     color: black;
 }
 .imagem{
-    background-color: rgba(0, 0, 0, 0.727);
+    background-color: rgba(0, 0, 0, 0.738);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.588);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.336);
     display: inline-block;
     padding: 5px;
+    text-shadow: 2px 1px 0px black;
+   
+}
+
+#img01{
+    background-image: url("imagens/background001.jpg");
+    background-position: right center;
+    
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+
 }
