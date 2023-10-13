@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /* Estilo pra retrato */
+
+body{
+    background: url(../../imagens/cev-landscape.jpg);
+}
